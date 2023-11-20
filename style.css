@@ -1,0 +1,135 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-size:24px;
+}
+
+body {
+    position:relative;
+}
+
+header {
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end;
+    margin:2vw;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.titulo {
+    margin:2vw;
+}
+
+.palavras {
+    display: flex;
+    flex-direction:row;
+    margin:2vw 13vw 0 13vw;
+    gap:14vw;
+}
+.palavras__esquerda p, .palavras__direita p {
+    background-color: rgba(217, 217, 217, 1);
+    padding:10px;
+    border-radius: 10px;
+    width:30vw;
+    text-align: center;
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+
+.dialogo__titulo {
+    margin:2vw 13vw;
+    width:74vw;
+    border-bottom:10px solid rgba(217, 217, 217, 1);
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.dialogo__conversas {
+    width:74vw;
+    margin:0 13vw;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(217, 217, 217, 1);
+    padding:4vw 8vw;
+    border-radius: 20px;
+}
+.dialogo__conversas div {
+    margin-bottom:20px;
+}
+.dialogo__conversas div:last-of-type {
+    margin-bottom:0;
+}
+.mensagem__esquerda p, .mensagem__direita p {
+    display: inline-block;
+}
+.mensagem__direita {
+    align-self: flex-end;
+}
+.mensagem {
+    width:32vw;
+    padding:15px;
+    background-color:rgb(109,109,109);
+}
+.mensagem__esquerda .mensagem {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.mensagem__direita .mensagem {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+#segundoBody {
+    display: none;
+    position: absolute;
+    top:-30px;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background: linear-gradient(rgba(98, 12, 112, 1), rgba(217, 217, 217, 0));
+}
+#modal {
+    display:none;
+    width:50vw;
+    height:80vh;
+    background-color: rgba(217, 217, 217, 1);
+    border:1px solid black;
+    position:absolute;
+    top:10vh;
+    left:25vw;
+    border-radius: 10px;
+    padding:20px;
+}
+
+hr {
+    margin:5px;
+}
+
+.headerDefinicao {
+    display: flex;
+    justify-content: space-between;
+}
+
+#idiomaPortugues, #idiomaIngles {
+    font-size: 12px;
+    float:right;
+}
+#classeIngles, #classePortugues, #definicaoIngles, #definicaoPortugues, #exemploIngles, #exemploPortugues {
+    font-size:18px;
+}
+#definicao__ingles p, #definicao__portugues p {
+    overflow-wrap:break-word;
+}
+#definicao__portugues {
+    margin-top:50px;
+}
+#exemploIngles, #exemploPortugues {
+    color:rgb(139, 139, 139);
+}
