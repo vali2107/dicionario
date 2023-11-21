@@ -23,7 +23,7 @@ palavra1.addEventListener('click', (e) =>{
     palavraIngles.textContent='Hierarchy';
     classeIngles.textContent='noun';
     definicaoIngles.textContent='a system or organization in which people or groups are ranked one above the other according to status or authority';
-    exemploIngles.textContent='Example: In our house, mom is at the top of the hierarchy.'
+    exemploIngles.textContent='Example: In our house, mom is at the top of the hierarchy.';
 
     palavraPortugues.textContent='Hierarquia';
     classePortugues.textContent='';
