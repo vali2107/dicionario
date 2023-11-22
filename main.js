@@ -29,8 +29,8 @@ palavra1.addEventListener('click', (e) =>{
     classePortugues.textContent='';
     definicaoPortugues.textContent='';
     exemploPortugues.textContent='';
-
-    const audio1_1 = new Audio('')
+    
+    const audio1_1 = new Audio('/audios/1_Word.mp3')
     audioIngles.addEventListener('click', (e) =>{
         audio1_1.load();
         audio1_1.play();
