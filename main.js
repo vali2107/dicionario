@@ -12,6 +12,13 @@ let exemploPortugues = document.querySelector('#exemploPortugues')
 
 const fundo = document.querySelector('#segundoBody')
 const modal = document.querySelector('#modal')
+const closeModal = document.querySelector('#closeModal')
+
+function fechar() {
+    fundo.style.display='none';
+    modal.style.display='none';
+}
+closeModal.addEventListener('click', fechar)
 
 
 const palavra1 = document.querySelector('#palavraUm')
@@ -29,8 +36,8 @@ palavra1.addEventListener('click', (e) =>{
     classePortugues.textContent='';
     definicaoPortugues.textContent='';
     exemploPortugues.textContent='';
-    
-    const audio1_1 = new Audio('/audios/1_Word.mp3')
+
+    const audio1_1 = new Audio('./audios/1_Word.mp3')
     audioIngles.addEventListener('click', (e) =>{
         audio1_1.load();
         audio1_1.play();
