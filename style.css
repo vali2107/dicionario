@@ -5,6 +5,9 @@
     font-size:24px;
 }
 
+
+/* LISTA DE PALAVRAS */
+
 body {
     position:relative;
 }
@@ -40,6 +43,7 @@ h2 {
     margin-bottom:20px;
 }
 
+/* DIÁLOGO */
 
 .dialogo__titulo {
     margin:2vw 13vw;
@@ -85,11 +89,7 @@ h2 {
     border-bottom-left-radius: 10px;
 }
 
-
-
-
-
-
+/* MODAL */
 
 #segundoBody {
     display: none;
