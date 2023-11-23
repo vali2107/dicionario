@@ -29,13 +29,13 @@ palavra1.addEventListener('click', (e) =>{
     
     palavraIngles.textContent='Hierarchy';
     classeIngles.textContent='noun';
-    definicaoIngles.textContent='a system or organization in which people or groups are ranked one above the other according to status or authority';
+    definicaoIngles.textContent='A system or organization in which people or groups are ranked one above the other according to status or authority.';
     exemploIngles.textContent='Example: In our house, mom is at the top of the hierarchy.';
 
     palavraPortugues.textContent='Hierarquia';
-    classePortugues.textContent='';
-    definicaoPortugues.textContent='';
-    exemploPortugues.textContent='';
+    classePortugues.textContent='substantivo feminino';
+    definicaoPortugues.textContent='Organização fundada sobre uma ordem de prioridade entre os elementos de um conjunto ou sobre relações de subordinação entre os membros de um grupo, com graus sucessivos de poderes, de situação e de responsabilidades.';
+    exemploPortugues.textContent='Exemplo: Na nossa casa, a mãe está no topo da hierarquia.';
 
     const audio1_1 = new Audio('./audios/1_Word.mp3')
     audioIngles.addEventListener('click', (e) =>{
@@ -58,13 +58,13 @@ palavra2.addEventListener('click', (e) =>{
     
     palavraIngles.textContent='Anesthetist';
     classeIngles.textContent='noun';
-    definicaoIngles.textContent='a medical specialist who administers anesthetics';
-    exemploIngles.textContent='She works at the hospital as an anesthetist.'
+    definicaoIngles.textContent='A medical specialist who administers anesthetics.';
+    exemploIngles.textContent='Example: She works at the hospital as an anesthetist.'
 
     palavraPortugues.textContent='Anestesista';
-    classePortugues.textContent='';
-    definicaoPortugues.textContent='';
-    exemploPortugues.textContent='';
+    classePortugues.textContent='substantivo';
+    definicaoPortugues.textContent='Que ou o que prepara e administra a anestesia (diz-se de profissional); anestesiador.';
+    exemploPortugues.textContent='Exemplo: Ela trabalha no hospital como anestesista.';
 
     const audio2_1 = new Audio('')
     audioIngles.addEventListener('click', (e) =>{
@@ -87,13 +87,13 @@ palavra3.addEventListener('click', (e) =>{
 
     palavraIngles.textContent='Gibberish';
     classeIngles.textContent='noun';
-    definicaoIngles.textContent='unintelligible or meaningless speech or writing; nonsense';
-    exemploIngles.textContent='He is always talking gibberish.'
+    definicaoIngles.textContent='Unintelligible or meaningless speech or writing; nonsense.';
+    exemploIngles.textContent='Example: He is always talking gibberish.'
 
-    palavraPortugues.textContent='';
-    classePortugues.textContent='';
-    definicaoPortugues.textContent='';
-    exemploPortugues.textContent='';
+    palavraPortugues.textContent='Asneira';
+    classePortugues.textContent='substantivo feminino';
+    definicaoPortugues.textContent='Ato ou dito tolo ou impensado; bobagem, dislate, tolice.';
+    exemploPortugues.textContent='Exemplo: Ele está sempre falando asneiras.';
 
     const audio3_1 = new Audio('')
     audioIngles.addEventListener('click', (e) =>{
@@ -116,13 +116,13 @@ palavra4.addEventListener('click', (e) =>{
     
     palavraIngles.textContent='Entertainment';
     classeIngles.textContent='noun';
-    definicaoIngles.textContent='the action of providing or being provided with amusement or enjoyment';
-    exemploIngles.textContent='We have a lot of entertainment options out there.'
+    definicaoIngles.textContent='The action of providing or being provided with amusement or enjoyment.';
+    exemploIngles.textContent='Example: We have a lot of entertainment options out there.'
 
-    palavraPortugues.textContent='';
-    classePortugues.textContent='';
-    definicaoPortugues.textContent='';
-    exemploPortugues.textContent='';
+    palavraPortugues.textContent='Entretenimento';
+    classePortugues.textContent='substantivo masculino';
+    definicaoPortugues.textContent='Ato ou efeito de entreter(-se), de distrair(-se).';
+    exemploPortugues.textContent='Exemplo: Nós temos muitas opções de entretenimento por aí.';
 
     const audio4_1 = new Audio('')
     audioIngles.addEventListener('click', (e) =>{
@@ -145,13 +145,13 @@ palavra5.addEventListener('click', (e) =>{
     
     palavraIngles.textContent='Knead';
     classeIngles.textContent='verb';
-    definicaoIngles.textContent='work (moistened flour or clay) into dough or paste with the hands';
-    exemploIngles.textContent='The recipe says you need to knead the dough.'
+    definicaoIngles.textContent='Work (moistened flour or clay) into dough or paste with the hands.';
+    exemploIngles.textContent='Example: The recipe says you need to knead the dough.'
 
-    palavraPortugues.textContent='';
-    classePortugues.textContent='';
-    definicaoPortugues.textContent='';
-    exemploPortugues.textContent='';
+    palavraPortugues.textContent='Amassar';
+    classePortugues.textContent='verbo';
+    definicaoPortugues.textContent='Transformar em massa ou pasta.';
+    exemploPortugues.textContent='Exemplo: A receita diz que você precisa amassar a massa.';
 
     const audio5_1 = new Audio('')
     audioIngles.addEventListener('click', (e) =>{
@@ -174,13 +174,13 @@ palavra6.addEventListener('click', (e) =>{
     
     palavraIngles.textContent='Leicester Square';
     classeIngles.textContent='noun';
-    definicaoIngles.textContent='pedestrianized square in the West End of London, England';
-    exemploIngles.textContent='We need to leave at the Leicester Square Underground Station.'
+    definicaoIngles.textContent='Pedestrianized square in the West End of London, England.';
+    exemploIngles.textContent='Example: We need to leave at the Leicester Square Underground Station.'
 
-    palavraPortugues.textContent='';
-    classePortugues.textContent='';
-    definicaoPortugues.textContent='';
-    exemploPortugues.textContent='';
+    palavraPortugues.textContent='Leicester Square';
+    classePortugues.textContent='substantivo';
+    definicaoPortugues.textContent='Praça exclusiva para pedestres localizada no bairro West End em Londres, Inglaterra.';
+    exemploPortugues.textContent='Exemplo: Nós precisamos sair na estação de metrô Leicester Square.';
 
     const audio6_1 = new Audio('')
     audioIngles.addEventListener('click', (e) =>{
@@ -203,13 +203,13 @@ palavra7.addEventListener('click', (e) =>{
     
     palavraIngles.textContent='Pneumonia';
     classeIngles.textContent='noun';
-    definicaoIngles.textContent='lung inflammation caused by bacterial or viral infection, in which the air sacs fill with pus and may become solid. Inflammation may affect both lungs, one lung, or only certain lobes';
-    exemploIngles.textContent='He died of pneumonia.'
+    definicaoIngles.textContent='Lung inflammation caused by bacterial or viral infection, in which the air sacs fill with pus and may become solid. Inflammation may affect both lungs, one lung, or only certain lobes.';
+    exemploIngles.textContent='Example: He died of pneumonia.'
 
-    palavraPortugues.textContent='';
-    classePortugues.textContent='';
-    definicaoPortugues.textContent='';
-    exemploPortugues.textContent='';
+    palavraPortugues.textContent='Pneumonia';
+    classePortugues.textContent='substativo feminino';
+    definicaoPortugues.textContent='Inflamação dos pulmões, provocada por bactéria ou vírus; pneumonite.';
+    exemploPortugues.textContent='Exemplo: Ele morreu de pneumonia.';
 
     const audio7_1 = new Audio('')
     audioIngles.addEventListener('click', (e) =>{
@@ -232,13 +232,13 @@ palavra8.addEventListener('click', (e) =>{
     
     palavraIngles.textContent='Alias';
     classeIngles.textContent='noun';
-    definicaoIngles.textContent='a false or assumed identity';
-    exemploIngles.textContent='James is a spy working under the alias Ardolf.'
+    definicaoIngles.textContent='A false or assumed identity.';
+    exemploIngles.textContent='Example: James is a spy working under the alias Ardolf.'
 
-    palavraPortugues.textContent='';
-    classePortugues.textContent='';
-    definicaoPortugues.textContent='';
-    exemploPortugues.textContent='';
+    palavraPortugues.textContent='Pseudônimo';
+    classePortugues.textContent='substantivo masculino';
+    definicaoPortugues.textContent='Que assina com outro nome que não o seu, civil ou consuetudinário, a sua obra, literária ou de outra qualquer natureza.';
+    exemploPortugues.textContent='Exemplo: James é um espião usando o pseudônimo Ardolf.';
 
     const audio8_1 = new Audio('')
     audioIngles.addEventListener('click', (e) =>{
@@ -261,13 +261,13 @@ palavra9.addEventListener('click', (e) =>{
     
     palavraIngles.textContent='Sensible';
     classeIngles.textContent='adjective';
-    definicaoIngles.textContent='chosen in accordance with wisdom or prudence';
-    exemploIngles.textContent='They made some very sensible decisions.'
+    definicaoIngles.textContent='Chosen in accordance with wisdom or prudence.';
+    exemploIngles.textContent='Example: They made some very sensible decisions.'
 
-    palavraPortugues.textContent='';
-    classePortugues.textContent='';
-    definicaoPortugues.textContent='';
-    exemploPortugues.textContent='';
+    palavraPortugues.textContent='Sensato';
+    classePortugues.textContent='adjetivo';
+    definicaoPortugues.textContent='Que age ou pensa com cautela, com prudência; previdente, precavido.';
+    exemploPortugues.textContent='Exemplo: Eles fizeram decisões muito sensatas.';
 
     const audio9_1 = new Audio('')
     audioIngles.addEventListener('click', (e) =>{
@@ -290,13 +290,13 @@ palavra10.addEventListener('click', (e) =>{
     
     palavraIngles.textContent='Exquisite';
     classeIngles.textContent='adjective';
-    definicaoIngles.textContent='extremely beautiful and, typically, delicate';
-    exemploIngles.textContent='She has an exquisite face.'
+    definicaoIngles.textContent='Extremely beautiful and, typically, delicate.';
+    exemploIngles.textContent='Example: She has an exquisite face.'
 
-    palavraPortugues.textContent='';
-    classePortugues.textContent='';
-    definicaoPortugues.textContent='';
-    exemploPortugues.textContent='';
+    palavraPortugues.textContent='Requintado';
+    classePortugues.textContent='adjetivo';
+    definicaoPortugues.textContent='Que ou o que demonstra refinamento, apuro; aprimorado, delicado.';
+    exemploPortugues.textContent='Exemplo: Ela tem um rosto requintado.';
 
     const audio10_1 = new Audio('')
     audioIngles.addEventListener('click', (e) =>{

@@ -130,7 +130,9 @@ hr {
     display: flex;
     justify-content: space-between;
 }
-
+#classeIngles, #classePortugues, #definicaoIngles, #definicaoPortugues {
+    margin-bottom:10px;
+}
 #idiomaPortugues, #idiomaIngles {
     font-size: 12px;
     float:right;
