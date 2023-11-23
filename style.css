@@ -115,17 +115,10 @@ h2 {
     padding:20px;
 }
 
-#closeModal {
-    position:absolute;
-    right:-20px;
-    top:-20px;
-    color:white;
-}
 
 hr {
     margin:5px;
 }
-
 .headerDefinicao {
     display: flex;
     justify-content: space-between;
@@ -148,4 +141,10 @@ hr {
 }
 #exemploIngles, #exemploPortugues {
     color:rgb(139, 139, 139);
+}
+#closeModal {
+    position:absolute;
+    right:-20px;
+    top:-20px;
+    color:white;
 }
