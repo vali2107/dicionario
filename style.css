@@ -56,12 +56,13 @@ h2 {
     align-items: center;
     position:relative;
 }
-.fa-angle-down {
+.trecho__fecha {
     position:absolute;
     right:0vw;
     top:0;
+    display:none;
 }
-.fa-angle-right {
+.trecho__abre {
     position:absolute;
     right:0;
     top:0;
