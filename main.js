@@ -1,5 +1,3 @@
-// --- MODAL ---
-
 // variáveis html
 let palavraIngles = document.querySelector('#palavraIngles')
 let audioPalavra = document.querySelector('#audioPalavra')
