@@ -17,6 +17,10 @@ const fundo = document.querySelector('#segundoBody')
 const modal = document.querySelector('#modal')
 const closeModal = document.querySelector('#closeModal')
 
+let trechoConto = document.querySelector('#conto__trecho')
+let setaAbre = document.querySelector('#trecho__abre')
+let setaFecha = document.querySelector('#trecho__fecha')
+
 const palavra1 = document.querySelector('#palavraUm')
 const palavra2 = document.querySelector('#palavraDois')
 const palavra3 = document.querySelector('#palavraTres')
@@ -40,7 +44,8 @@ const palavras = [
         definicaoP: 'Organização fundada sobre uma ordem de prioridade entre os elementos de um conjunto ou sobre relações de subordinação entre os membros de um grupo, com graus sucessivos de poderes, de situação e de responsabilidades.',
         exemploP: 'Exemplo: Na nossa casa, a mãe está no topo da hierarquia.',
         arquivoPalavra: './audios/1_Word.mp3',
-        arquivoFrase: './audios/1_Sentence.mp3'
+        arquivoFrase: './audios/1_Sentence.mp3',
+        trecho: 'Hoje não é um dia muito bom para Agatha Smith. A anestesista, topo na hierarquia do hospital, descobriu que está com pneumonia. Trabalhando na área da medicina, ela sabe como isso pode ser fatal. Com o psicológico abatido e nenhuma amiga com quem conversar, ela sai para beber e esquecer de tudo por um tempo.'
     },
     {
         tituloI: 'Anesthetist',
@@ -52,7 +57,8 @@ const palavras = [
         definicaoP: 'Que ou o que prepara e administra a anestesia (diz-se de profissional); anestesiador.',
         exemploP: 'Exemplo: Ela trabalha no hospital como anestesista.',
         arquivoPalavra: './audios/2_Word.mp3',
-        arquivoFrase: './audios/2_Sentence.mp3'
+        arquivoFrase: './audios/2_Sentence.mp3',
+        trecho: 'Hoje não é um dia muito bom para Agatha Smith. A anestesista, topo na hierarquia do hospital, descobriu que está com pneumonia. Trabalhando na área da medicina, ela sabe como isso pode ser fatal. Com o psicológico abatido e nenhuma amiga com quem conversar, ela sai para beber e esquecer de tudo por um tempo.'
     },
     {
         tituloI: 'Gibberish',
@@ -64,7 +70,8 @@ const palavras = [
         definicaoP: 'Ato ou dito tolo ou impensado; bobagem, dislate, tolice.',
         exemploP: 'Exemplo: Ele está sempre falando asneiras.',
         arquivoPalavra: './audios/3_Word.mp3',
-        arquivoFrase: './audios/3_Sentence.mp3'
+        arquivoFrase: './audios/3_Sentence.mp3',
+        trecho: '- Pare de falar asneiras, nós não temos nada em comum.'
     },
     {
         tituloI: 'Entertainment',
@@ -76,7 +83,8 @@ const palavras = [
         definicaoP: 'Ato ou efeito de entreter(-se), de distrair(-se).',
         exemploP: 'Exemplo: Nós temos muitas opções de entretenimento por aí.',
         arquivoPalavra: './audios/4_Word.mp3',
-        arquivoFrase: './audios/4_Sentence.mp3'
+        arquivoFrase: './audios/4_Sentence.mp3',
+        trecho: '- Eu sou do mundo do entretenimento, não posso vazar meu nome real, a pouca privacidade que eu tenho terminaria. Então faça a escolha mais sensata e não espalhe. Além disso, eu posso usar o discurso que você estava bêbada no bar e não lembra direito das coisas. As pessoas vão acreditar mais em quem?'
     },
     {
         tituloI: 'Knead',
@@ -88,7 +96,8 @@ const palavras = [
         definicaoP: 'Transformar em massa ou pasta.',
         exemploP: 'Exemplo: A receita diz que você precisa amassar a massa.',
         arquivoPalavra: './audios/5_Word.mp3',
-        arquivoFrase: './audios/5_Sentence.mp3'
+        arquivoFrase: './audios/5_Sentence.mp3',
+        trecho: 'As duas conversam um pouco sobre seu dia e logo pedem as pizzas. Quando olham para a cozinha (visível para os clientes) percebem que vai demorar, já que o chefe estava recém amassando a massa. Elas continuam conversando, até que surge um "clique" em Agatha.'
     },
     {
         tituloI: 'Leicester Square',
@@ -100,7 +109,8 @@ const palavras = [
         definicaoP: 'Praça exclusiva para pedestres localizada no bairro West End em Londres, Inglaterra.',
         exemploP: 'Exemplo: Nós precisamos sair na estação de metrô Leicester Square.',
         arquivoPalavra: './audios/6_Word.mp3',
-        arquivoFrase: './audios/6_Sentence.mp3'
+        arquivoFrase: './audios/6_Sentence.mp3',
+        trecho: 'Agatha vai para um bar perto da praça Leicester, em Londres, que não fica muito longe de sua casa. O lugar não estava muito cheio, mas a música estava boa. Ela já começa a beber e dançar na sua chegada. Como ela costuma frequentar o lugar (sempre que tinha um tempo de seu trabalho), os garçons já a conhecem e sabem as bebidas que ela gosta, então a mulher não precisa nem pedir.'
     },
     {
         tituloI: 'Pneumonia',
@@ -112,7 +122,8 @@ const palavras = [
         definicaoP: 'Inflamação dos pulmões, provocada por bactéria ou vírus; pneumonite.',
         exemploP: 'Exemplo: Ele morreu de pneumonia.',
         arquivoPalavra: './audios/7_Word.mp3',
-        arquivoFrase: './audios/7_Sentence.mp3'
+        arquivoFrase: './audios/7_Sentence.mp3',
+        trecho: 'Hoje não é um dia muito bom para Agatha Smith. A anestesista, topo na hierarquia do hospital, descobriu que está com pneumonia. Trabalhando na área da medicina, ela sabe como isso pode ser fatal. Com o psicológico abatido e nenhuma amiga com quem conversar, ela sai para beber e esquecer de tudo por um tempo.'
     },
     {
         tituloI: 'Alias',
@@ -124,7 +135,8 @@ const palavras = [
         definicaoP: 'Que assina com outro nome que não o seu, civil ou consuetudinário, a sua obra, literária ou de outra qualquer natureza.',
         exemploP: 'Exemplo: James é um espião usando o pseudônimo Ardolf.',
         arquivoPalavra: './audios/8_Word.mp3',
-        arquivoFrase: './audios/8_Sentence.mp3'
+        arquivoFrase: './audios/8_Sentence.mp3',
+        trecho: '- Ok, não vou conseguir esconder isso por muito tempo mesmo. Eu sou Chloe, mas é somente um pseudônimo. Bella é meu nome real. Só uso ele para momentos que não estou fazendo coisas relacionadas ao trabalho, como ontem.'
     },
     {
         tituloI: 'Sensible',
@@ -136,7 +148,8 @@ const palavras = [
         definicaoP: 'Que age ou pensa com cautela, com prudência; previdente, precavido.',
         exemploP: 'Exemplo: Eles fizeram decisões muito sensatas.',
         arquivoPalavra: './audios/9_Word.mp3',
-        arquivoFrase: './audios/9_Sentence.mp3'
+        arquivoFrase: './audios/9_Sentence.mp3',
+        trecho: '- Eu sou do mundo do entretenimento, não posso vazar meu nome real, a pouca privacidade que eu tenho terminaria. Então faça a escolha mais sensata e não espalhe. Além disso, eu posso usar o discurso que você estava bêbada no bar e não lembra direito das coisas. As pessoas vão acreditar mais em quem?'
     },
     {
         tituloI: 'Exquisite',
@@ -148,7 +161,8 @@ const palavras = [
         definicaoP: 'Que ou o que demonstra refinamento, apuro; aprimorado, delicado.',
         exemploP: 'Exemplo: Ela tem um rosto requintado.',
         arquivoPalavra: './audios/10_Word.mp3',
-        arquivoFrase: './audios/10_Sentence.mp3'
+        arquivoFrase: './audios/10_Sentence.mp3',
+        trecho: 'No dia seguinte, Agatha acorda e vai assistir televisão. Ela estava em um canal de noticiário, e a manchete era: "A atriz Chloe Smith, conhecida por sua beleza requintada, chega hoje na Inglaterra para gravação da nova série da Netflix, na qual ela é a personagem principal". Ela não dá muita importância para a notícia, mas logo aparece uma entrevista com a tal Chloe. Logo ela tem a impressão que já viu aquele rosto antes, mas não dá muita atenção para isso, afinal deve ter visto a atriz em algum filme por aí.'
     },
 ]
 
@@ -170,6 +184,12 @@ function play(botao, arquivo) {
     });
 }
 
+function abrir() {
+    trechoConto.style.display='block';
+    setaAbre.style.visibility='hidden';
+    setaFecha.style.visibility='visible';
+}
+
 function conteudo(index) {
     modal.style.display='block';
     fundo.style.display='block';
@@ -183,6 +203,18 @@ function conteudo(index) {
     classePortugues.textContent=palavras[index].classeP;
     definicaoPortugues.textContent=palavras[index].definicaoP;
     exemploPortugues.textContent=palavras[index].exemploP;
+
+    abrir()
+    trechoConto.textContent=palavras[index].trecho;
+
+    setaFecha.addEventListener('click', () => {
+        trechoConto.style.display='none';
+        setaAbre.style.visibility='visible';
+        setaFecha.style.visibility='hidden';
+    })
+    setaAbre.addEventListener('click', () => {
+        abrir()
+    })
 
     play(audioPalavra, palavras[index].arquivoPalavra)
     play(audioFrase, palavras[index].arquivoFrase)
